@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, User, Calendar, Medicine, Ambulance, BookOpen } from 'lucide-react';
+import { MapPin, User, Calendar, Pill, Ambulance, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
@@ -68,7 +68,7 @@ const Index = () => {
             <ServiceCard
               title="Medicine Checker"
               description="Check availability of essential medicines at local healthcare centers."
-              icon={<Medicine className="h-8 w-8 text-medical-500" />}
+              icon={<Pill className="h-8 w-8 text-medical-500" />}
               link="/medicines"
               color="bg-medical-50"
             />
