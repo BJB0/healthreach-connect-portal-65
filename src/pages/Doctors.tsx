@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Search, Filter, Calendar } from 'lucide-react';
 import {
@@ -133,7 +132,7 @@ const Doctors = () => {
                 <SelectValue placeholder="Specialty" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Specialties</SelectItem>
+                <SelectItem value="all_specialties">All Specialties</SelectItem>
                 <SelectItem value="General Physician">General Physician</SelectItem>
                 <SelectItem value="Pediatrician">Pediatrician</SelectItem>
                 <SelectItem value="Gynecologist">Gynecologist</SelectItem>
