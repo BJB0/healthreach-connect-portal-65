@@ -62,7 +62,7 @@ const Emergency = () => {
           </p>
 
           <div className="bg-white border border-emergency-100 rounded-lg p-6 shadow-sm">
-            <EmergencyContact className="mb-0" />
+            <EmergencyContact />
           </div>
         </div>
       </section>
