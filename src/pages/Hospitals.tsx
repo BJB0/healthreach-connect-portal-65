@@ -116,7 +116,7 @@ const Hospitals = () => {
                 <SelectValue placeholder="Hospital Type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Types</SelectItem>
+                <SelectItem value="all_types">All Types</SelectItem>
                 <SelectItem value="government">Government</SelectItem>
                 <SelectItem value="private">Private</SelectItem>
                 <SelectItem value="clinic">Clinic</SelectItem>
@@ -176,7 +176,7 @@ const Hospitals = () => {
                         <SelectContent>
                           <SelectItem value="now">Open Now</SelectItem>
                           <SelectItem value="24">Open 24 hours</SelectItem>
-                          <SelectItem value="any">Any</SelectItem>
+                          <SelectItem value="any_time">Any</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
