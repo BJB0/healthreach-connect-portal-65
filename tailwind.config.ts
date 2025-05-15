@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// HealthReach custom colors
+				medical: {
+					50: '#e6f7ff',
+					100: '#bae3ff',
+					200: '#7cc4fa',
+					300: '#36a9f7',
+					400: '#0ea5e9',
+					500: '#0284c7',
+					600: '#0369a1',
+					700: '#075985',
+					800: '#0c4a6e',
+					900: '#082f49',
+				},
+				emergency: {
+					50: '#fef2f2',
+					100: '#fee2e2',
+					500: '#ef4444',
+					600: '#dc2626',
+					700: '#b91c1c',
 				}
 			},
 			borderRadius: {
@@ -84,11 +105,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-subtle': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-subtle': 'pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
 			}
 		}
 	},
